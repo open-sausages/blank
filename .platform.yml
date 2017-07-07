@@ -1,1 +1,6 @@
 infrastructure: ^3.10.0
+url_rules:
+  mysite:
+    - '^/assets/': 'apache'
+  ss4-test:
+    - '^/assets/': 'apache'
